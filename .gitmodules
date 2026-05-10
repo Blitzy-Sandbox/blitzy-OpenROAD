@@ -1,6 +1,6 @@
 [submodule "module/OpenSTA"]
 	path = src/sta
-	url = ../../Blitzy-Sandbox/OpenSTA.git
+	url = https://github.com/Blitzy-Sandbox/OpenSTA.git
 [submodule "src/abc"]
 	path = third-party/abc
-	url = ../../Blitzy-Sandbox/abc.git
+	url = https://github.com/Blitzy-Sandbox/abc.git
