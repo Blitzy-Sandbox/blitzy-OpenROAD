@@ -1,0 +1,37 @@
+site_name: OpenROAD
+docs_dir: docs
+
+nav:
+  - Home: index.md
+  - Overview: README.md
+  - User Guide:
+      - Build: user/Build.md
+      - Bazel: user/Bazel.md
+      - Bazel Targets: user/Bazel-targets.md
+      - Bazel Caching: user/Bazel-caching.md
+      - Bazel Developer Activities: user/Bazel-developer-activities.md
+      - Bazel Breaking Changes: user/Bazel-breaking-changes.md
+      - FAQs: user/FAQS.md
+  - Tutorials: tutorials/index.md
+  - Contributing:
+      - Developer Guide: contrib/DeveloperGuide.md
+      - Getting Involved: contrib/GettingInvolved.md
+      - Coding Practices: contrib/CodingPractices.md
+      - Git Guide: contrib/GitGuide.md
+      - CI: contrib/CI.md
+      - Database Math: contrib/DatabaseMath.md
+      - Lint Targets: contrib/LintTargets.md
+      - Logger: contrib/Logger.md
+      - README Format: contrib/ReadmeFormat.md
+      - TCL Format: contrib/TclFormat.md
+  - Agents:
+      - Build: agents/build.md
+      - CI: agents/ci.md
+      - Coding: agents/coding.md
+      - Testing: agents/testing.md
+  - Misc:
+      - New Tool Doc Example: misc/NewToolDocExample.md
+  - Doxygen: doxymain.md
+
+plugins:
+  - techdocs-core
